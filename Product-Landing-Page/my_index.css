@@ -1,0 +1,14 @@
+img {
+    width: 15%;
+}
+
+li {
+    border-right: 1px solid white;
+    margin-left: 10px;
+    padding-right: 10px;
+}
+
+li:last-child {
+    border-right: none;
+    margin-right: 10px;
+}
