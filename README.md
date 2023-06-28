@@ -8,7 +8,6 @@ VS Code
 * CSS3
 + HTML5
 <br>
-<hr>
 <sub>Calculator</sub>
 - Javascript
 * CSS3
