@@ -7,3 +7,7 @@ VS Code
 - Bootstrap 5
 * CSS3
 + HTML5
+<sub>Calculator</sub>
+- Javascript
+* CSS3
++ HTML5
