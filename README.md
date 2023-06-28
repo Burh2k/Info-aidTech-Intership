@@ -3,4 +3,7 @@ Internship Tasks
 ## Tool
 VS Code
 ## Languages
-Bootstrap5 ,CSS3 and HTML5
+<sub>Product Landing Page</sub>
+- Bootstrap 5
+* CSS3
++ HTML5
