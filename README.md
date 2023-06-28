@@ -3,16 +3,12 @@ Internship Tasks
 ## Tool
 VS Code
 ## Languages
-<sub>Product Landing Page</sub>
-```
+_Product Landing Page_
 - Bootstrap 5
 * CSS3
 + HTML5
-```
 <br>
-<sub>Calculator</sub>
-```
+_Calculator_
 - Javascript
 * CSS3
 + HTML5
-```
