@@ -1,3 +1,4 @@
+/* CSS attributes */
 img {
     width: 15%;
 }
@@ -6,9 +7,37 @@ li {
     border-right: 1px solid white;
     margin-left: 10px;
     padding-right: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+/* Selectors and Effects on hover */
+.shop-now-link:hover {
+    background-color: #98EECC;
+    cursor: pointer;
+    border-radius: 20px;
 }
 
 li:last-child {
     border-right: none;
     margin-right: 10px;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 576px) {
+    h1 {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 576px) {
+    a {
+        font-size: 0.5rem;
+    }
 }
