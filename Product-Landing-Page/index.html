@@ -4,73 +4,110 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- CSS Style Sheet -->
     <link rel="stylesheet" href="my_index.css">
     <title>Product Landing Page</title>
 </head>
 
 <body>
     <!--Landing Page -->
-    <section id="Landing">
+    <section id="home" class="landing-section">
         <!-- Navigation bar -->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-success py-0 pe-lg-1">
-            <a href="#" class="navbar-brand">
-                <h1 class="fw-light">
-                    <img src="icons8-starbucks-50.png" class="img-fluid me-1 ms-lg-4" alt="Star-bucks-logo">STARBUCKS COFFEE
-                </h1>
-            </a>
-            <button class="navbar-toggler me-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto ">
-                    <li class="nav-item">
-                        <a href="#about" class="h5 fw-light nav-link">ABOUT</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#home" class="h5 fw-light nav-link">HOME</a>
-                    </li>
-                    <li class="nav-item ">
-                        <a href="#pricing" class="h5 fw-light nav-link">PRICING</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#shopping" class="h5 nav-link shop-now-link">SHOP NOW</a>
-                    </li>
-                </ul>
+        <div class="container-fluid ps-0 pe-0">
+            <nav class="navbar navbar-expand-lg navbar-expand-md navbar-dark py-0 pe-lg-1">
+                <a href="#" class="navbar-brand">
+                    <h1 class="fw-light">
+                        <img src="icons8-starbucks-50.png" class="logo img-fluid me-1 ms-lg-4"
+                            alt="Star-bucks-logo">STARBUCKS COFFEE
+                    </h1>
+                </a>
+                <button class="navbar-toggler me-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto ">
+                        <li class="nav-item">
+                            <a href="#about" class="h6 mx-2 fw-light nav-link">ABOUT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#home" class="h6 mx-2 fw-light nav-link">HOME</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a href="#Menu" class="h6 mx-2 fw-light nav-link">MENU</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#shopping" class="h6 mx-2 text-dark fw-bold nav-link shop-now-link">ORDER NOW</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <!-- Secondary Content -->
+            <div class="container-xxl ps-0 pe-0 text-light">
+                <h1 class="display-1 fw-bold">Pouring Happiness</h1>
+                <!-- <img src="fresh chilled coffee.jpg" alt="Chilled Coffee" class="landing"> -->
+                <p class="text-lg-start text-light">
+                    It's not just coffee. It's always about Starbucks.
+                    Brewed for those who love Coffee, our way of loving
+                    you back.
+                </p>
             </div>
-        </nav>
-        <!-- Secondary Content -->
-        <div class="container-xxl">
-            <h1 class="display-3">This is my Coffee</h1>
-            <p class="text-center">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus atque ipsum repellendus qui accusamus
-                ad
-                sint a accusantium laborum unde exercitationem voluptatum tempora maxime sequi labore recusandae optio,
-                ea
-                totam!
-            </p>
-            <hr>
-            <p class="text-center">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus atque ipsum repellendus qui accusamus
-                ad
-                sint a accusantium laborum unde exercitationem voluptatum tempora maxime sequi labore recusandae optio,
-                ea
-                totam!
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus atque ipsum repellendus qui accusamus
-                ad
-                sint a accusantium laborum unde exercitationem voluptatum tempora maxime sequi labore recusandae optio,
-                ea
-                totam!
-            </p>
-            <hr>
+        </div>
+    </section>
+    <section id="pricing">
+        WELCOME
+    </section>
+    <section id="about">
+        Our Company
+        <img src="" alt="">
+        Our Heritage
+        Our story begins in 1971 along the cobblestone streets of Seattle’s historic Pike Place Market. It was here
+        where Starbucks opened its first store, offering fresh-roasted coffee beans, tea and spices from around the
+        world for our customers to take home. Our name was inspired by the classic tale, “Moby-Dick,” evoking the
+        seafaring tradition of the early coffee traders.
+
+        Ten years later, a young New Yorker named Howard Schultz would walk through these doors and become captivated
+        with Starbucks coffee from his first sip. After joining the company in 1982, a different cobblestone road would
+        lead him to another discovery. It was on a trip to Milan in 1983 that Howard first experienced Italy’s
+        coffeehouses, and he returned to Seattle inspired to bring the warmth and artistry of its coffee culture to
+        Starbucks. By 1987, we swapped our brown aprons for green ones and embarked on our next chapter as a
+        coffeehouse.
+
+        Starbucks would soon expand to Chicago and Vancouver, Canada and then on to California, Washington, D.C. and New
+        York. By 1996, we would cross the Pacific to open our first store in Japan, followed by Europe in 1998 and China
+        in 1999. Over the next two decades, we would grow to welcome millions of customers each week and become a part
+        of the fabric of tens of thousands of neighborhoods all around the world. In everything we do, we are always
+        dedicated to Our Mission: With every cup, with every conversation, with every community - we nurture the
+        limitless possibilities of human connection.
+
+        Coffee & Craft
+        It takes many hands to craft the perfect cup of coffee – from the farmers who tend to the red-ripe coffee
+        cherries, to the master roasters who coax the best from every bean, and to the barista who serves it with care.
+        We are committed to the highest standards of quality and service, embracing our heritage while innovating to
+        create new experiences to savor.
+
+        Learn More About Us
+        <button>Stories & News</button>
+        Company Profile
+        Company Timeline
+        Ethics & Compliance
+        Corporate Governance
+    </section>
+    <hr>
+    <section class="modal-footer">
+        <div class="row">
+            <div class="col-lg-2 col-md-3" style="background-color: brown; border: 1px solid black;">
+                Lorem
+            </div>
         </div>
     </section>
 </body>
 
 </html>
-<!-- Include Bootstrap JavaScript -->
+<!-- Bootstrap JavaScript -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     crossorigin="anonymous"></script>
