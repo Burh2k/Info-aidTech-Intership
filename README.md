@@ -1,9 +1,7 @@
 # Info-aidTech-Internship
 Internship Tasks
-<hr>
 ## Tool
 VS Code
-<hr>
 ## Languages
 <sub>Product Landing Page</sub>
 - Bootstrap 5
