@@ -1,26 +1,82 @@
 /* CSS attributes */
-img {
-    width: 15%;
-}
-
 li {
     border-right: 1px solid white;
     margin-left: 10px;
     padding-right: 10px;
     padding-top: 0px;
     padding-bottom: 0px;
+    font-family: 'Montserrat', sans-serif;
 }
 
-/* Selectors and Effects on hover */
+nav {
+    background-image: linear-gradient(to right, green 1%, transparent);
+}
+
+p {
+    font-family: Helvetica, sans-serif;
+    font-weight:400;
+    padding-right: 60%;
+}
+
+/* Selectors (id's) */
+/* Classes and Effects on hover */
+.logo {
+    width: 15%;
+}
+
+.landing-section {
+    background-image: url("fresh chilled coffee2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
 .shop-now-link:hover {
-    background-color: #98EECC;
+    background-color: #ACEBDC;
     cursor: pointer;
     border-radius: 20px;
 }
 
+.display-1 {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 100%;
+    padding-top: 200px;
+}
+
 li:last-child {
     border-right: none;
-    margin-right: 10px;
+    margin-right: 8px;
+}
+
+.nav-link:not(.shop-now-link) {
+    position: relative;
+    transition: all 0.5s ease;
+}
+
+.nav-link:not(.shop-now-link)::before {
+    content: "";
+    position: absolute;
+    width: 60%;
+    height: 2px;
+    bottom: 2px;
+    background-color: white;
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.5s ease;
+}
+
+.nav-link:not(.shop-now-link):hover::before {
+    visibility: visible;
+    transform: scaleX(1);
+}
+
+.shop-now-link {
+    transition: all 0.4s ease;
+}
+
+.container-xxl {
+    margin-top: auto;
 }
 
 /* Media query for smaller screens */
@@ -32,7 +88,20 @@ li:last-child {
 
 @media (max-width: 576px) {
     h1 {
-        font-size: 1rem;
+        font-size: 1.4rem;
+    }
+
+    .display-1 {
+        font-size: xx-large;
+    }
+
+    .nav-link {
+        font-size: small;
+    }
+
+    .text-light {
+        font-size: small;
+        padding-right: 35%;
     }
 }
 
