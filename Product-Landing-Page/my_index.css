@@ -8,20 +8,38 @@ li {
     font-family: 'Montserrat', sans-serif;
 }
 
+
 nav {
     background-image: linear-gradient(to right, green 1%, transparent);
 }
 
 p {
     font-family: Helvetica, sans-serif;
-    font-weight:400;
+    font-weight: 400;
     padding-right: 60%;
 }
 
 /* Selectors (id's) */
+#About a {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#About p {
+    padding-right: 28%;
+    margin-right: 80%;
+}
+
 /* Classes and Effects on hover */
 .logo {
     width: 15%;
+}
+
+.btn:hover {
+    transition: all 0.8s ease;
+    background-color: #ACEBDC;
+    cursor: pointer;
+    border: 1px solid #ACEBDC;
 }
 
 .landing-section {
@@ -31,6 +49,15 @@ p {
     background-repeat: no-repeat;
     height: 100vh;
 }
+
+.scrolling-wrapper {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    .card {
+      display: inline-block;
+    }
+  }
 
 .shop-now-link:hover {
     background-color: #ACEBDC;
