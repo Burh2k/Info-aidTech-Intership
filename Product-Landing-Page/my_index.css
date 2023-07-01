@@ -8,15 +8,14 @@ li {
     font-family: 'Montserrat', sans-serif;
 }
 
-
 nav {
     background-image: linear-gradient(to right, green 1%, transparent);
 }
 
-p {
+.landing-section p {
     font-family: Helvetica, sans-serif;
     font-weight: 400;
-    padding-right: 60%;
+    padding-right: 45vw;
 }
 
 /* Selectors (id's) */
@@ -26,8 +25,16 @@ p {
 }
 
 #About p {
-    padding-right: 28%;
-    margin-right: 80%;
+    padding-right: 27%;
+    margin-right: 75%;
+}
+
+#Menue .card img {
+    transition: transform 0.3s ease;
+}
+
+#Menue .card img:hover {
+    transform: scale(1.1);
 }
 
 /* Classes and Effects on hover */
@@ -35,11 +42,29 @@ p {
     width: 15%;
 }
 
+.review p {
+    padding-right: 0%;
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-right: 5px;
+}
+
 .btn:hover {
     transition: all 0.8s ease;
     background-color: #ACEBDC;
     cursor: pointer;
     border: 1px solid #ACEBDC;
+}
+
+.card-body a {
+    color: black;
+    cursor: pointer;
+}
+
+.card-body a:hover {
+    transition: all 0.9s ease;
+    color: white;
+    background-color: black;
 }
 
 .landing-section {
@@ -54,15 +79,22 @@ p {
     overflow-x: scroll;
     overflow-y: hidden;
     white-space: nowrap;
+
     .card {
-      display: inline-block;
+        display: inline-block;
     }
-  }
+}
 
 .shop-now-link:hover {
-    background-color: #ACEBDC;
+    background-color: white;
     cursor: pointer;
-    border-radius: 20px;
+    border-radius: 17px;
+}
+
+.shop-now-link:hover {
+    background-color: white;
+    cursor: pointer;
+    border-radius: 17px;
 }
 
 .display-1 {
@@ -118,6 +150,23 @@ li:last-child {
         font-size: 1.4rem;
     }
 
+    section#About .btn {
+        font-size: small !important;
+    }
+
+    section#About p {
+        font-size: large !important;
+    }
+
+    section#About p.Second {
+        padding-right: 0px;
+        margin-right: 0px;
+    }
+
+    span .links {
+        padding-right: 10px;
+    }
+
     .display-1 {
         font-size: xx-large;
     }
@@ -130,10 +179,25 @@ li:last-child {
         font-size: small;
         padding-right: 35%;
     }
-}
 
-@media (max-width: 576px) {
     a {
         font-size: 0.5rem;
+    }
+
+    footer p {
+        font-size: small;
+        display: inline;
+        margin-right: 0;
+        padding-right: 0;
+    }
+
+    footer a {
+        font-size: smaller;
+        line-break: auto;
+        vertical-align: top;
+    }
+
+    footer .fa-linkedin {
+        margin-right: 8px;
     }
 }
