@@ -1,0 +1,75 @@
+section {
+    background-image: url(bg-coffee.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+main {
+    margin: 2% 38%;
+    background-color: white;
+    margin-left: 1400px;
+    margin-right: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+div {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+button[type="submit"]:hover {
+    color: white;
+    background: #14A44D;
+    transition: 0.3s;
+}
+
+input:focus {
+    outline: none;
+}
+
+@media (min-width: 1024px) {
+
+    main {
+        margin: 2% 38%;
+        background-color: white;
+        margin-left: 1400px;
+        margin-right: 100px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    div {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+}
+
+@media (min-width: 400px) and (max-width: 800px) {
+
+    main {
+        margin:69px 50px; 
+        background-color: white;
+    }
+    div {
+        padding-top: 30px;
+        padding-bottom: 10px;
+    }
+    footer{
+        font-size:12px ;
+    }
+    footer i{
+        width: 5px;
+        height: 5px; 
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    footer div{
+        display: flex;
+        flex-direction: column;
+    }
+}

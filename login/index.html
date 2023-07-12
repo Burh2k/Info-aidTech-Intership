@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- CSS Style Sheet -->
+    <link rel="stylesheet" href="loginstyle.css">
+    <!-- Icon in the page title -->
+    <link href="icons8-starbucks-50.png" rel="icon" type="image/x-icon" />
+    <!-- Font-Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css'>
+    <!-- Title of Page -->
+    <title>Login Page</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-expand-md navbar-dark bg-success py-0 pe-lg-1">
+            <a href="#" class="navbar-brand">
+                <h1 class="fw-light">
+                    <img src="icons8-starbucks-50.png" class="logo img-fluid me-1 ms-lg-4"
+                        alt="Star-bucks-logo">STARBUCKS COFFEE
+                </h1>
+            </a>
+        </nav>
+    </header>
+    <section>
+        <main class="rounded-3 pb-5">
+            <div class="d-grid justify-content-center">
+                <img class="mx-auto mb-5" src="Starbucks_logo_PNG6.png" height="110" width="110" alt="Starbucks logo">
+                <label for="email" class="my-3">
+                    <input class="border-start-0 border-end-0 border-top-0" type="email" id="email" placeholder="Email">
+                </label>
+                <label for="password" class="mt-3 mb-2">
+                    <input class="border-start-0 border-end-0 border-top-0" type="password" id="password"
+                        placeholder="Password">
+                </label>
+                <label for="reminder">
+                    <input type="checkbox" class="mb-4"> Remember me
+                </label>
+
+                <button type="submit" class="mt-4 rounded-pill border-success">
+                    LOGIN
+                </button>
+                <p class="text-secondary text-center pt-4 mb-0">OR</p>
+                <button type="submit" class="mt-4 rounded-pill border-success" onclick="move()">
+                    SIGN UP
+                </button>
+            </div>
+        </main>
+    </section>
+    <footer class="border-top">
+        <div class="d-flex justify-content-lg-between pb-2 pt-3">
+            <span class="ms-4 text-start">
+                <p class="text-muted">&copy; 2023 Starbucks Coffee Company. All rights reserved.</p>
+            </span>
+            <span class="text-end me-4 spac">
+                <a href="https://www.facebook.com/Starbucks" target="_blank"><i class="fab fa-facebook fa-2x"
+                        style="color: #9FA6B2;"></i></a>
+                <a href="https://www.youtube.com/@starbucks" target="_blank"><i class="fab fa-youtube fa-2x mx-3"
+                        style="color: #9FA6B2;"></i></a>
+                <a href="https://www.instagram.com/starbucks/" target="_blank"><i class="fab fa-instagram fa-2x"
+                        style="color: #9FA6B2;"></i></a>
+                <a href="https://www.linkedin.com/company/starbucks/" target="_blank"><i
+                        class="fab fa-linkedin fa-2x ms-3" style="color: #9FA6B2;"></i></a>
+            </span>
+        </div>
+    </footer>
+    </section>
+</body>
+
+</html>
+<!-- Bootstrap JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+<script src="workingFunctions.js"></script>
